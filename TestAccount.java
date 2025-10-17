@@ -1,4 +1,4 @@
-public class TestMain {
+public class TestAccount {
     public static void main(String[] args) {
         // Test constructor and toString()
         Account a1 = new Account("A101", "Tan Ah Teck", 88);
@@ -7,7 +7,7 @@ public class TestMain {
         System.out.println(a2);
 
         // Test Getters
-        System.out.println("ID: " + a1.getId() );
+        System.out.println("ID: " + a1.getID());
         System.out.println("Name: " + a1.getName());
         System.out.println("Balance: " + a1.getBalance());
 
